@@ -1,0 +1,51 @@
+.products-1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+}
+
+.image-1 {
+    width: 150px;
+    padding: 0px;
+    box-shadow: 0 0 10px #4a62ca;
+    border-radius: 6px;
+    margin: 20px;
+}
+
+.row-products {
+    background-color: aqua;
+    align-items: center;
+    min-width: 750px;
+    min-height: 170px;
+    gap: 10px;
+    margin: 15px;
+    font-size: 14pt;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #4a62ca;
+    display: flex;
+    grid-column: 2;
+    
+} 
+
+.categories {
+    background-color: aquamarine;
+    font-size: 20pt;
+    padding: 30px;
+    grid-column: 1;
+    
+    
+}
+
+#category {
+    margin-left: 15px;
+}
+
+#category:hover {
+    color: rgb(7, 110, 141);
+    cursor: pointer;
+    
+}
+
+#cat {
+    color: #4a62ca;
+}
